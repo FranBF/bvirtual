@@ -49,30 +49,6 @@
   width: 33.33%;
   margin-top: 5%;
 }
-/* .usrs {
-  display: flex;
-  flex-direction: column;
-  padding: 5%;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-}
-.tit {
-  padding: 2%;
-  border: 0 solid;
-  border-bottom: 1px solid black;
-  width: 33.33%;
-  margin-top: 5%;
-}
-.usr {
-  padding: 2%;
-  border: 0 solid;
-  border-bottom: 1px solid black;
-  width: 33.33%;
-  margin-top: 5%;
-} */
 .form {
   display: flex;
   justify-content: space-between;
@@ -95,8 +71,8 @@ a {
     display: none;
   }
   .container {
-    width: 80%;
-    height: 90%;
+    width: 96%;
+    height: 96%;
   }
   .loginContainer {
     width: 90%;

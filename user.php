@@ -26,8 +26,12 @@ class User extends DB
         $stmt = $this->connect()->prepare($query);
         $res = $stmt->execute();
         $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $users = array();
+        $users["users"] = array();
         foreach ($row as $r) {
-            echo "<div class='usrs'><h4 class='tit'>" . $r["name"] . "</h4><p clas='usr'>" . $r["email"] . "</p></div>";
+            $user = array("name" => $r["name"], "email" => $r["email"], "phone" => $r["phone"], "dni" => $r["DNI"], "surname" => $r["surname"]);
+            $allUsers = json_encode($user);
+            echo "<div class='usrs'><h4 class='tit'>" . $user["name"] . "</h4><p clas='usr'>" . $user["email"] . "</p></div>";
         }
         echo "<a class='submit' href='login.html'>Volver al login</a>";
     }
