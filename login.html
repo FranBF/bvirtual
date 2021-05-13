@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="loginContainer">
+            <div class="logo">
+                <p>LOGO</p>
+            </div>
+            <div class="rellena">
+                <p>Por favor rellena los campos siguientes:</p>
+                <div class="form">
+                    <form method="post" action="index.php" method="post">
+                        <input type="text" id="name" name="name" class="login" placeholder="Nombre">
+                        <input type="text" id="surname" name="surname" class="login" placeholder="Apellido">
+                        <input type="email" name="email" id="email" class="login" placeholder="Email">
+                        <input type="text" name="repemail" id="repemail" class="login" placeholder="Repetir email">
+                        <input type="text" name="dni" id="dni" class="login" placeholder="DNI">
+                        <input type="number" name="phone" id="phone" class="login" placeholder="Móvil">
+                        <input type="submit" class="submit" value="Enviar">
+                    </form>
+                </div>
+                <button class="submit">Todos los usuarios</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
