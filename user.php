@@ -29,5 +29,6 @@ class User extends DB
         foreach ($row as $r) {
             echo "<div class='usrs'><h4 class='tit'>" . $r["name"] . "</h4><p clas='usr'>" . $r["email"] . "</p></div>";
         }
+        echo "<a class='submit' href='login.html'>Volver al login</a>";
     }
 }
