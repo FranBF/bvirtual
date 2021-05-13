@@ -65,6 +65,15 @@ a {
   text-decoration: none;
   text-align: center;
 }
+.centered {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 30%;
+  height: 10%;
+  display: flex;
+}
 
 @media screen and (max-width: 700px) {
   .logo {
